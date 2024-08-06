@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo span {
+    font-size: 28px;
+    font-weight: bold;
+    color: #000;
+}
+
+nav {
+    display: flex;
+    flex: 2;
+    justify-content: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.cart-login {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.cart-login a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.cart-login img {
+    height: 24px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cart {
+    width: 60%;
+}
+
+.cart h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.item-info {
+    display: flex;
+    align-items: center;
+}
+
+.item-logo img {
+    height: 50px;
+    margin-right: 20px;
+}
+
+.item-details h2 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.item-details p {
+    font-size: 14px;
+    color: #888;
+}
+
+.item-details select {
+    margin-top: 10px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.item-price p {
+    font-size: 18px;
+    color: #000;
+}
+
+.order-info {
+    width: 35%;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.order-info h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.subtotal, .total-payment {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.promo-code {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.promo-code img {
+    height: 24px;
+    margin-right: 10px;
+}
+
+.promo-code input {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.promo-code button {
+    width: 30%;
+    padding: 10px;
+    border: none;
+    background-color: #0f9d58;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.checkout-btn {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background-color: #0f9d58;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
